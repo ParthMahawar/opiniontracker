@@ -1,0 +1,28 @@
+<h1>Opinions of {{ query }}</h1>
+<br><br>
+The overall sentiment of the tweets found looked like this:
+<br>
+Positive: {{ positive }}
+<br>
+Negative: {{ negative }}
+<br>
+Neutral: {{ neutral }}
+<br>
+<br>
+Discarding the neutral results, here's a graph:
+<br>
+<br>
+{% load static %}
+<img src="{% static imgpath %}">
+<br>
+<br>
+And here's one keeping them:
+<br>
+<br>
+<img src="{% static imgpath2 %}">
+<br>
+<br>
+Here's how opinions of {{ query }} have changed over time:
+<br>
+<br>
+<img src="{% static imgpath3 %}">

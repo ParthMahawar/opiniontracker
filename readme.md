@@ -1,0 +1,1 @@
+A Django-based website coded in Python that takes a search term from a user, and then pulls tweets from Twitter on that topic. It then sends the text of these tweets to a third-party sentiment analysis API, and returns a summary of the overall current opinion of Twitter on the subject, along with historical data from previous times the same terms was searched.
